@@ -1,0 +1,41 @@
+print("PYTHON QUIZ ")
+score = 0
+answer = input("1. What programming language are we learning? ")
+if answer.lower() == "python":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+answer = input("2. What function is used to display something in Python? ")
+if answer.lower() == "print":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+answer = input("3. Which symbol is used to assign a value to a variable? ")
+if answer == "=":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+answer = input("4. Which data type is used for whole numbers? ")
+if answer.lower() == "integer" or answer.lower() == "int":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+answer = input("5. What keyword is used to create a function? ")
+if answer.lower() == "def":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+print()
+print("===== QUIZ FINISHED =====")
+print("Your score is:", score, "/ 5")
+if score == 5:
+    print("Excellent!")
+elif score >= 3:
+    print("Good job!")
+else:
+    print("Keep practising!")
